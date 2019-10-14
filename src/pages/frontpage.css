@@ -1,0 +1,27 @@
+.container-fluid{
+    background-color: brown;
+}
+
+.row{
+    height: 90%;
+    background-color: green;
+}
+
+.col-sm{
+    height: auto;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.col-11{
+    height: auto;
+    margin: 5px;
+    background-color: red;
+}
+
+.col{
+    height: auto;
+    margin: 5px;
+    margin-left: 0px;
+    background-color: brown;
+}
