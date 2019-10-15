@@ -1,0 +1,42 @@
+
+$carousel-width: 100%;
+
+.container-fluid{
+    background-color: brown;
+}
+
+.row{
+    height: 90%;
+    background-color: green;
+}
+
+.col-sm{
+    height: auto;
+    margin: 5px;
+    background-color: aqua;
+}
+
+.carousel, .slide{
+    width: 100%;
+    background-color: gray;
+    .carousel-inner{
+        max-height: 400px;
+    }
+    
+    .carousel-item{
+        height: 400px;
+        img{
+            max-height: 400px;
+            object-fit: contain;
+        }
+    }
+
+    .carousel-control-next{
+        background: linear-gradient(90deg, transparent, rgb(68, 68, 68));
+        // background-color: black;
+    }
+    .carousel-control-prev{
+        background: linear-gradient(-90deg, transparent, rgb(68, 68, 68));
+        // background-color: black;
+    }
+}
